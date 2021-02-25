@@ -1,30 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Production</title>
-</head>
-
-<body>
-<!DOCTYPE html>
 <html>
 <head>
 <style>
 .item1 { grid-area: header; }
 .item2 { grid-area: menu; }
 .item3 { grid-area: main; }
-.item4 { grid-area: right; }
 .item5 { grid-area: footer; }
 
+body {
+      background-image: url("https://www.yosemite.com/wp-content/uploads/2016/04/El-Capitan-_Yosemite-Mariposa-Slide_-Photo-by-Chris-Migeon-700x425.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
 .grid-container {
   display: grid;
   grid-template-areas:
-    'header header header header header'
-    'main main main right right'
-    'footer footer footer footer footer';
+    'header header header header header header'
+    'menu main main main main main'
+    'menu footer footer footer footer footer';
   grid-gap: 10px;
   background-color: #2196F3;
   padding: 10px;
@@ -36,22 +30,22 @@
   padding: 20px 0;
   font-size: 30px;
 }
+#El-Capitan {width: 200px;}
 </style>
 </head>
+
 <body>
 
-<h1>Grid Layout</h1>
-
-<p>This grid layout contains six columns and three rows:</p>
+<h1>Free Solo</h1>
 
 <div class="grid-container">
-  <div class="item1">Header</div>
-  <div class="item2">Menu</div>
-  <div class="item3">Main</div>  
-  <div class="item4">Right</div>
-  <div class="item5">Footer</div>
+  <div class="item1">Production</div>
+  <div class="item2"><img id="El-Capitan" src="https://static01.nyt.com/images/2019/03/17/obituaries/17Braverman1/merlin_151254393_23afb910-2bc9-4093-8e67-de026e74c74c-articleLarge.jpg" alt="Production">
+  </div>
+  <div class="item3"><p style="font-size: 15px;">•	The film devotes some time to documenting its own production process, with director Jimmy Chin and his camera crew (all experienced climbers themselves) discussing the challenge of not endangering climber Alex Honnold by distracting him or pressuring him to attempt the climb at all. According to director Elizabeth Chai Vasarhelyi, this was solved with a lot of practice. To record sound from Honnold, who was often too far from the cameras to use a wireless microphone, the filmmakers created a special recording device and had Honnold carry it inside his chalk bag.</p></div>  
+  <div class="item4"><p style="color:red; font-size: 12px;">Jimmy Chin looking at El Capitan while filming</p></div>
+  <div class="item5"><p style="color:red; font-size: 18px;">****! A MASTERPIECE" - EVAN BUSH, THE SEATTLE TIMES</p></div>
 </div>
 
 </body>
-
 </html>
