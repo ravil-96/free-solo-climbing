@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Shippori+Mincho+B1&display=swap');
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Shippori Mincho B1', serif; */
+
+#mynav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    text-align: right;
+    background-color: lightskyblue;
+    width: 100%;
+    font-family: 'Shippori Mincho B1', serif;
+    opacity: 0.8;
+  }
+ 
+  li.nav-only {
+    display: inline;
+    padding: 6px;
+  }
+
+body {
+      background-image: url(https://www.yosemite.com/wp-content/uploads/2016/04/El-Capitan-_Yosemite-Mariposa-Slide_-Photo-by-Chris-Migeon-700x425.jpg);
+      background-size: cover;
+      background-attachment: fixed;
+    }
+
+.page-title {
+    padding-top: 40px;
+    padding-left: 50px;
+    font-size: large;
+    font-family: 'Shippori Mincho B1', serif;
+}
+
+.container {
+    display: flex;
+    border: 1px solid lightgreen;
+    margin: 80px;
+    width: auto;
+
+}
+
+.cont {
+    display: flex;
+    margin: 80px;
+    width: auto;
+    justify-content: center;
+
+}
+
+.item {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    background-color: white;
+    opacity: 0.8;
+    font-size: large;
+    width: 600px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
